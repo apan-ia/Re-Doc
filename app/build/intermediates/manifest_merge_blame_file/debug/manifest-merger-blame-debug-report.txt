@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.application.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\PBM\application\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\PBM\application\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\PBM\application\app\src\main\AndroidManifest.xml:3:5-66
+11-->E:\PBM\application\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\PBM\application\app\src\main\AndroidManifest.xml:4:5-78
+12-->E:\PBM\application\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <application
+14-->E:\PBM\application\app\src\main\AndroidManifest.xml:5:5-44:19
+15        android:name="com.application.app.appcomponents.di.MyApp"
+15-->E:\PBM\application\app\src\main\AndroidManifest.xml:8:9-66
+16        android:allowBackup="false"
+16-->E:\PBM\application\app\src\main\AndroidManifest.xml:5:18-45
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] C:\Users\Windows X\.gradle\caches\transforms-3\ae30daa42fdcb5a7b0eee51e92264d91\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\PBM\application\app\src\main\AndroidManifest.xml:6:9-43
+21        android:label="@string/app_name"
+21-->E:\PBM\application\app\src\main\AndroidManifest.xml:7:9-41
+22        android:largeHeap="true"
+22-->E:\PBM\application\app\src\main\AndroidManifest.xml:7:42-66
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\PBM\application\app\src\main\AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->E:\PBM\application\app\src\main\AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MyApp"
+26-->E:\PBM\application\app\src\main\AndroidManifest.xml:10:36-70
+27        android:usesCleartextTraffic="true" >
+27-->E:\PBM\application\app\src\main\AndroidManifest.xml:10:71-106
+28        <activity
+28-->E:\PBM\application\app\src\main\AndroidManifest.xml:11:9-12:131
+29            android:name="com.application.app.modules.tampilanakun.ui.TampilanAkunActivity"
+29-->E:\PBM\application\app\src\main\AndroidManifest.xml:12:13-92
+30            android:screenOrientation="portrait" />
+30-->E:\PBM\application\app\src\main\AndroidManifest.xml:12:93-129
+31        <activity
+31-->E:\PBM\application\app\src\main\AndroidManifest.xml:13:9-14:133
+32            android:name="com.application.app.modules.appnavigation.ui.AppNavigationActivity"
+32-->E:\PBM\application\app\src\main\AndroidManifest.xml:14:13-94
+33            android:screenOrientation="portrait" />
+33-->E:\PBM\application\app\src\main\AndroidManifest.xml:14:95-131
+34        <activity
+34-->E:\PBM\application\app\src\main\AndroidManifest.xml:15:9-16:131
+35            android:name="com.application.app.modules.tampilanmenu.ui.TampilanMenuActivity"
+35-->E:\PBM\application\app\src\main\AndroidManifest.xml:16:13-92
+36            android:screenOrientation="portrait" />
+36-->E:\PBM\application\app\src\main\AndroidManifest.xml:16:93-129
+37        <activity
+37-->E:\PBM\application\app\src\main\AndroidManifest.xml:17:9-18:157
+38            android:name="com.application.app.modules.tampilanrekomendasidokter.ui.TampilanRekomendasiDokterActivity"
+38-->E:\PBM\application\app\src\main\AndroidManifest.xml:18:13-118
+39            android:screenOrientation="portrait" />
+39-->E:\PBM\application\app\src\main\AndroidManifest.xml:18:119-155
+40        <activity
+40-->E:\PBM\application\app\src\main\AndroidManifest.xml:19:9-20:157
+41            android:name="com.application.app.modules.tampilankotakmasukselesai.ui.TampilanKotakMasukSelesaiActivity"
+41-->E:\PBM\application\app\src\main\AndroidManifest.xml:20:13-118
+42            android:screenOrientation="portrait" />
+42-->E:\PBM\application\app\src\main\AndroidManifest.xml:20:119-155
+43        <activity
+43-->E:\PBM\application\app\src\main\AndroidManifest.xml:21:9-22:139
+44            android:name="com.application.app.modules.tampilankategori.ui.TampilanKategoriActivity"
+44-->E:\PBM\application\app\src\main\AndroidManifest.xml:22:13-100
+45            android:screenOrientation="portrait" />
+45-->E:\PBM\application\app\src\main\AndroidManifest.xml:22:101-137
+46        <activity
+46-->E:\PBM\application\app\src\main\AndroidManifest.xml:23:9-29:20
+47            android:name="com.application.app.modules.tampilanawal.ui.TampilanAwalActivity"
+47-->E:\PBM\application\app\src\main\AndroidManifest.xml:24:13-92
+48            android:exported="true"
+48-->E:\PBM\application\app\src\main\AndroidManifest.xml:23:19-42
+49            android:screenOrientation="portrait" >
+49-->E:\PBM\application\app\src\main\AndroidManifest.xml:24:93-129
+50            <intent-filter>
+50-->E:\PBM\application\app\src\main\AndroidManifest.xml:25:13-28:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\PBM\application\app\src\main\AndroidManifest.xml:26:17-68
+51-->E:\PBM\application\app\src\main\AndroidManifest.xml:26:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\PBM\application\app\src\main\AndroidManifest.xml:27:17-76
+53-->E:\PBM\application\app\src\main\AndroidManifest.xml:27:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->E:\PBM\application\app\src\main\AndroidManifest.xml:30:9-31:133
+57            android:name="com.application.app.modules.tampilanmasuk.ui.TampilanMasukActivity"
+57-->E:\PBM\application\app\src\main\AndroidManifest.xml:31:13-94
+58            android:screenOrientation="portrait" />
+58-->E:\PBM\application\app\src\main\AndroidManifest.xml:31:95-131
+59        <activity
+59-->E:\PBM\application\app\src\main\AndroidManifest.xml:32:9-33:143
+60            android:name="com.application.app.modules.tampilankotakmasuk.ui.TampilanKotakMasukActivity"
+60-->E:\PBM\application\app\src\main\AndroidManifest.xml:33:13-104
+61            android:screenOrientation="portrait" />
+61-->E:\PBM\application\app\src\main\AndroidManifest.xml:33:105-141
+62        <activity
+62-->E:\PBM\application\app\src\main\AndroidManifest.xml:34:9-35:141
+63            android:name="com.application.app.modules.tampilanreservasi.ui.TampilanReservasiActivity"
+63-->E:\PBM\application\app\src\main\AndroidManifest.xml:35:13-102
+64            android:screenOrientation="portrait" />
+64-->E:\PBM\application\app\src\main\AndroidManifest.xml:35:103-139
+65        <activity
+65-->E:\PBM\application\app\src\main\AndroidManifest.xml:36:9-37:143
+66            android:name="com.application.app.modules.tampilanbuatjanji1.ui.TampilanBuatJanji1Activity"
+66-->E:\PBM\application\app\src\main\AndroidManifest.xml:37:13-104
+67            android:screenOrientation="portrait" />
+67-->E:\PBM\application\app\src\main\AndroidManifest.xml:37:105-141
+68        <activity
+68-->E:\PBM\application\app\src\main\AndroidManifest.xml:38:9-39:135
+69            android:name="com.application.app.modules.tampilansearch.ui.TampilanSearchActivity"
+69-->E:\PBM\application\app\src\main\AndroidManifest.xml:39:13-96
+70            android:screenOrientation="portrait" />
+70-->E:\PBM\application\app\src\main\AndroidManifest.xml:39:97-133
+71        <activity
+71-->E:\PBM\application\app\src\main\AndroidManifest.xml:40:9-41:143
+72            android:name="com.application.app.modules.tampilanbuatjanji4.ui.TampilanBuatJanji4Activity"
+72-->E:\PBM\application\app\src\main\AndroidManifest.xml:41:13-104
+73            android:screenOrientation="portrait" />
+73-->E:\PBM\application\app\src\main\AndroidManifest.xml:41:105-141
+74        <activity
+74-->E:\PBM\application\app\src\main\AndroidManifest.xml:42:9-43:135
+75            android:name="com.application.app.modules.tampilandaftar.ui.TampilanDaftarActivity"
+75-->E:\PBM\application\app\src\main\AndroidManifest.xml:43:13-96
+76            android:screenOrientation="portrait" />
+76-->E:\PBM\application\app\src\main\AndroidManifest.xml:43:97-133
+77        <activity android:name="com.vmadalin.easypermissions.components.TestActivity" />
+77-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:11:9-89
+77-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:11:19-86
+78        <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity" />
+78-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:12:9-98
+78-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:12:19-95
+79        <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity" />
+79-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:13:9-104
+79-->[com.vmadalin:easypermissions-ktx:0.1.0] C:\Users\Windows X\.gradle\caches\transforms-3\36a83a85ca605ff52eed25c427b063ed\transformed\jetified-easypermissions-ktx-0.1.0\AndroidManifest.xml:13:19-101
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Windows X\.gradle\caches\transforms-3\d604f9c05bc8f4fa64616e004ba01099\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+82            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Windows X\.gradle\caches\transforms-3\d604f9c05bc8f4fa64616e004ba01099\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+83            android:authorities="com.application.app.lifecycle-process"
+83-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Windows X\.gradle\caches\transforms-3\d604f9c05bc8f4fa64616e004ba01099\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+84            android:exported="false"
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Windows X\.gradle\caches\transforms-3\d604f9c05bc8f4fa64616e004ba01099\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+85            android:multiprocess="true" />
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Windows X\.gradle\caches\transforms-3\d604f9c05bc8f4fa64616e004ba01099\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+86    </application>
+87
+88</manifest>

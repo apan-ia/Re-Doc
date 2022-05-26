@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_buat_janji3.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_buat_janji3.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_kotak_masuk_selesai.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_kotak_masuk_selesai.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_akun.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_akun.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_kotak_masuk.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_kotak_masuk.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_buat_janji1.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_buat_janji1.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_app_navigation.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_app_navigation.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_awal.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_awal.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_rekomendasi_dokter.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_rekomendasi_dokter.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_daftar.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_daftar.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_masuk.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_masuk.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_daftar1.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_daftar1.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_search1.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_search1.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_menu.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_menu.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_buat_janji2.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_buat_janji2.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_progress_dialog.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\layout_progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_search.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_search.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_rekomendasi_dokter1.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_rekomendasi_dokter1.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_buat_janji4.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_buat_janji4.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tampilan_buat_janji.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\fragment_tampilan_buat_janji.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_tampilan_menu1.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\row_tampilan_menu1.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_reservasi.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_reservasi.xml"
+    },
+    {
+        "merged": "E:\\PBM\\application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tampilan_kategori.xml",
+        "source": "E:\\PBM\\application\\app\\src\\main\\res\\layout\\activity_tampilan_kategori.xml"
+    }
+]
