@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="tampilanBuatJanji4VM" type="com.application.app.modules.tampilanbuatjanji4.data.viewmodel.TampilanBuatJanji4VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearGroup331"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_100">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearGroup170"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearBarAtas"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegreen_300">
+                <androidx.appcompat.widget.Toolbar
+                    android:gravity="start"
+                    android:id="@+id/toolbarToolbar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent" app:contentInsetStart="0dp">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearGroup161"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_34pxh"
+                        android:layout_marginStart="@dimen/_34pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ImageView android:id="@+id/imageVector"
+                            android:layout_height="@dimen/_63pxh"
+                            android:layout_width="@dimen/_72pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_vector"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtReDoc"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_13pxh"
+                            android:layout_marginTop="@dimen/_21pxv"
+                            android:layout_weight="0.76"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtReDoc}"
+                            style="@style/txtRalewayromansemibold30" tools:text="@string/lbl_re_doc"/>
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearGroup162"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_17pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/image51604271"
+                    android:layout_height="@dimen/_68pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_width="@dimen/_68pxh"
+                    android:scaleType="fitXY" circular="@{true}"
+                    imageRes="@{@drawable/img_51604271_2}" tools:src="@drawable/img_51604271_2"/>
+                <FrameLayout android:id="@+id/frameGroup172"
+                    android:layout_height="@dimen/_46pxv"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginEnd="@dimen/_58pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_215pxh">
+                    <TextView android:id="@+id/txtDRDrSYAHRUL"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtDRDrSYAHRUL}"
+                        style="@style/txtRalewayromanmedium15" tools:text="@string/msg_dr_dr_syahrul3"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSpesialisSaraf"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_6pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtSpesialisSaraf}"
+                        style="@style/txtRalewaymedium12" tools:text="@string/lbl_spesialis_saraf"/>
+                </FrameLayout>
+            </LinearLayout>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtJadwalYangTer"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_24pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtJadwalYangTer}"
+                style="@style/txtPoppinsmedium18_1" tools:text="@string/msg_jadwal_yang_ter"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txt15Maret"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_24pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txt15Maret}"
+                style="@style/txtPoppinsmedium18_1" tools:text="@string/lbl_15_maret"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearGroup163"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:id="@+id/txt1500"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_7pxv"
+                    android:paddingEnd="@dimen/_17pxh"
+                    android:paddingStart="@dimen/_10pxh"
+                    android:paddingTop="@dimen/_3pxv"
+                    android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txt1500}"
+                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_15_00"/>
+                <TextView android:id="@+id/txt1600"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_34pxh"
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_3pxv"
+                    android:paddingEnd="@dimen/_16pxh"
+                    android:paddingStart="@dimen/_11pxh"
+                    android:paddingTop="@dimen/_7pxv"
+                    android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txt1600}"
+                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_16_00"/>
+                <TextView android:id="@+id/txt1700"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginEnd="@dimen/_64pxh"
+                    android:layout_marginStart="@dimen/_34pxh"
+                    android:layout_weight="0.33"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_3pxv"
+                    android:paddingEnd="@dimen/_20pxh"
+                    android:paddingStart="@dimen/_9pxh"
+                    android:paddingTop="@dimen/_7pxv"
+                    android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txt1700}"
+                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_17_00"/>
+            </LinearLayout>
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayoutGroup25"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_26pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="match_parent"
+                app:tabBackground="@drawable/selector_bg_blue_800_66_radius_10"
+                app:tabIndicatorColor="@android:color/transparent"
+                app:tabIndicatorHeight="0dp" app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/black_900" app:tabTextColor="@color/black_900"/>
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerGroup182"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_64pxv"
+                android:layout_weight="1" android:layout_width="match_parent"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearBarBawah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegreen_300">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearGroup179"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearGroup177"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageHomer"
+                        android:layout_height="@dimen/_45pxh"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_width="@dimen/_51pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_homer_1"/>
+                    <ImageView android:id="@+id/imageClipboardr"
+                        android:layout_height="@dimen/_44pxh"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginStart="@dimen/_30pxh"
+                        android:layout_width="@dimen/_62pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_clipboardr_6"/>
+                    <ImageView android:id="@+id/imageEmailr"
+                        android:layout_height="@dimen/_48pxh"
+                        android:layout_marginStart="@dimen/_37pxh"
+                        android:layout_width="@dimen/_59pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_emailr_2"/>
+                    <ImageView android:id="@+id/imageUserr"
+                        android:layout_height="@dimen/_37pxh"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginStart="@dimen/_41pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_51pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_userr_2"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearGroup178"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtBeranda"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5pxh"
+                        android:layout_weight="0.2"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtBeranda}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_beranda"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtReservasi"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_48pxh"
+                        android:layout_weight="0.24"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtReservasi}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_reservasi"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtKotakMasuk"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_51pxh"
+                        android:layout_weight="0.32"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtKotakMasuk}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_kotak_masuk"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAkunSaya"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_40pxh"
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji4VM.tampilanBuatJanji4Model.txtAkunSaya}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_akun_saya"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

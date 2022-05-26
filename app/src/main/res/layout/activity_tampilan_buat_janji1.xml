@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="tampilanBuatJanji1VM" type="com.application.app.modules.tampilanbuatjanji1.data.viewmodel.TampilanBuatJanji1VM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearGroup263"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_100">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearBarAtas"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegreen_300">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearGroup223"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/_34pxh"
+                    android:layout_marginStart="@dimen/_34pxh"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageVector"
+                        android:layout_height="@dimen/_63pxh"
+                        android:layout_width="@dimen/_72pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_vector"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtReDoc"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_13pxh"
+                        android:layout_marginTop="@dimen/_21pxv"
+                        android:layout_weight="0.76"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtReDoc}"
+                        style="@style/txtRalewayromansemibold30" tools:text="@string/lbl_re_doc"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearBarAtas1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_11pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end" android:gravity="end"
+                    android:id="@+id/txtDokterGigi"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_41pxh"
+                    android:layout_marginStart="@dimen/_41pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtDokterGigi}"
+                    style="@style/txtRalewayromanbold25" tools:text="@string/lbl_dokter_gigi"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearDoctorsec"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/recyclerTampilanBuatJanji"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_10pxh}" tools:itemCount="2" tools:listitem="@layout/row_tampilan_buat_janji2"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerTampilanBuatJanji1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_19pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="2" itemSpace="@{@dimen/_33pxh}"
+                        tools:itemCount="4" tools:listitem="@layout/row_tampilan_buat_janji3"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearBarBawah"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegreen_300">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearGroup259"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearGroup257"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <ImageView android:clickable="true"
+                        android:id="@+id/imageHomer"
+                        android:layout_height="@dimen/_45pxh"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_width="@dimen/_51pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_homer_2"/>
+                    <ImageView android:clickable="true"
+                        android:id="@+id/imageClipboardr"
+                        android:layout_height="@dimen/_44pxh"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginStart="@dimen/_30pxh"
+                        android:layout_width="@dimen/_62pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_clipboardr_5"/>
+                    <ImageView android:clickable="true"
+                        android:id="@+id/imageEmailr"
+                        android:layout_height="@dimen/_48pxh"
+                        android:layout_marginStart="@dimen/_37pxh"
+                        android:layout_width="@dimen/_59pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_emailr_2"/>
+                    <ImageView android:clickable="true"
+                        android:id="@+id/imageUserr"
+                        android:layout_height="@dimen/_37pxh"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginStart="@dimen/_41pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_51pxh"
+                        android:scaleType="fitXY" android:src="@drawable/img_userr_2"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearGroup258"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtBeranda"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5pxh"
+                        android:layout_weight="0.2"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtBeranda}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_beranda"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtReservasi"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_48pxh"
+                        android:layout_weight="0.24"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtReservasi}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_reservasi"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtKotakMasuk"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_51pxh"
+                        android:layout_weight="0.32"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtKotakMasuk}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_kotak_masuk"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAkunSaya"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_40pxh"
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{tampilanBuatJanji1VM.tampilanBuatJanji1Model.txtAkunSaya}"
+                        style="@style/txtRobotoromanregular10" tools:text="@string/lbl_akun_saya"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_15_maret_18_00">15 Maret, 18.00 WIB</string>
+<string name="lbl_tampilan_akun">Tampilan Akun</string>
+<string name="msg_dokter_spesiali">Dokter Spesialis Saraf</string>
+<string name="lbl_beranda">Beranda</string>
+<string name="msg_tampilan_rekome">Tampilan Rekomendasi Dokter</string>
+<string name="lbl_r">R</string>
+<string name="msg_confirm_passwor">Confirm Password</string>
+<string name="msg_dr_wahdini_sp">dr WAHDINI, Sp.A</string>
+<string name="lbl_145">145+</string>
+<string name="lbl_masuk">Masuk</string>
+<string name="lbl_antrian">ANTRIAN</string>
+<string name="msg_01_02_03_04">01
+
+02
+
+03
+
+04
+
+05
+
+06
+
+07</string>
+<string name="lbl_300">$300</string>
+<string name="msg_spesialis_penya">Spesialis Penyakit Dalam</string>
+<string name="lbl_drg_siti">Drg. Siti</string>
+<string name="msg_reservasi_seger">Reservasi Segera Dokter Anda!</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="lbl_143">143+</string>
+<string name="lbl_tampilan_daftar">Tampilan Daftar</string>
+<string name="lbl_suggestions">Suggestions</string>
+<string name="lbl_15_00">15.00</string>
+<string name="lbl_jantung">Jantung</string>
+<string name="msg_drg_yuli_sp">Drg. Yuli, Sp. PM</string>
+<string name="lbl_antrian_4">Antrian 4</string>
+<string name="lbl_re_doc">Re-Doc</string>
+<string name="lbl_username">Username</string>
+<string name="lbl_dr_silver">Dr. Silver  </string>
+<string name="msg_selesai_selesa2">Selesai
+
+Selesai
+
+Selesai
+
+</string>
+<string name="lbl_affan_ian">Affan Ian</string>
+<string name="lbl_d">D</string>
+<string name="msg_silakan_mendaft">Silakan Mendaftarkan Akun</string>
+<string name="lbl_dr_vogel">Dr. Vogel</string>
+<string name="msg_tampilan_kotak">Tampilan Kotak Masuk-Selesai</string>
+<string name="lbl_drg_jajang">Drg. Jajang</string>
+<string name="lbl_18_00">18.00</string>
+<string name="lbl_dr">Dr.</string>
+<string name="lbl_spesialis_saraf">Spesialis Saraf</string>
+<string name="lbl_3_8">3.8</string>
+<string name="lbl_cempaka_lima">Cempaka Lima</string>
+<string name="msg_jadwal_yang_ter">Jadwal yang tersedia</string>
+<string name="lbl_reservasi">Reservasi</string>
+<string name="lbl_14_01_2000">14/01/2000</string>
+<string name="lbl_max_600_words">Max 600 words</string>
+<string name="lbl_kandungan">Kandungan</string>
+<string name="msg_dr_dr_dr_sya">Dr. DR. dr. Syahrul, Sp.S (K)</string>
+<string name="lbl_akun_saya">Akun Saya</string>
+<string name="lbl_18_00_wib">18.00 WIB</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="msg_belum_punya_aku">Belum Punya akun?</string>
+<string name="msg_dr_yopie_afria">Dr. Yopie Afriandi Habibie, Sp.BTKV</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_tampilan_awal">Tampilan Awal</string>
+<string name="lbl_punge">Punge</string>
+<string name="msg_tampilan_reserv">Tampilan Reservasi</string>
+<string name="lbl_drg_lita">Drg. Lita</string>
+<string name="lbl_356">356+</string>
+<string name="lbl_234">234+</string>
+<string name="msg_dr_suheir_muza">Dr. Suheir Muzakkir, Sp.PD</string>
+<string name="msg_tampilan_buat_j">Tampilan Buat Janji</string>
+<string name="msg_dr_suheri_sp">dr. Suheri, Sp. PD</string>
+<string name="lbl_tanggal_lahir">Tanggal Lahir</string>
+<string name="msg_selesai_selesa">Selesai
+
+Selesai
+
+Selesai
+
+Berkonsultasi
+
+Menunggu
+
+Menunggu
+
+Menunggu</string>
+<string name="msg_dr_dr_syahrul4">DR. dr. SYAHRUL, Sp.S (K)
+
+Dokter Spesialis Saraf</string>
+<string name="msg_dr_dr_syahrul5">DR. dr. SYAHRUL, Sp.S (K)
+
+</string>
+<string name="msg_dr_dr_syahrul2">DR. dr. SYAHRUL, Sp.S (K)
+</string>
+<string name="msg_dr_dr_syahrul3">DR. dr. SYAHRUL, Sp.S (K)</string>
+<string name="msg_dr_taufik_wahy">Dr. Taufik Wahyudi Mahady, Sp.OG</string>
+<string name="msg_dr_dr_syahrul">DR. dr. SYAHRUL, Sp.S (K)
+Dokter Spesialis Saraf</string>
+<string name="lbl_tampilan_search">Tampilan Search</string>
+<string name="lbl_spesialis_anak">Spesialis Anak</string>
+<string name="lbl_keluar">Keluar</string>
+<string name="lbl_book_now">Book Now</string>
+<string name="lbl_16_00">16.00</string>
+<string name="msg_menunggu_menun">
+Menunggu
+
+Menunggu
+
+Menunggu</string>
+<string name="lbl_lupa_password">Lupa Password?</string>
+<string name="lbl_kotak_masuk">Kotak Masuk</string>
+<string name="lbl_4_5">4.5</string>
+<string name="lbl_4_8">4.8</string>
+<string name="lbl_dokter_gigi">Dokter Gigi</string>
+<string name="lbl_drg_sukri">Drg. Sukri</string>
+<string name="msg_masukkan_userna">Masukkan Username</string>
+<string name="lbl_90">90+</string>
+<string name="lbl_kategori">Kategori</string>
+<string name="lbl_see_all">See all</string>
+<string name="msg_ingatkan_akun_s">Ingatkan Akun Saya</string>
+<string name="lbl_tulang">Tulang</string>
+<string name="lbl_99">99+</string>
+<string name="lbl_19_00">19.00</string>
+<string name="lbl_buat_janji">Buat Janji</string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl">***********</string>
+<string name="lbl_081236548974">081236548974</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_komentar_dokter">Komentar Dokter</string>
+<string name="msg_rekomendasi_dok">Rekomendasi Dokter</string>
+<string name="msg_segera_reservas">Segera Reservasi Dokter Anda!</string>
+<string name="lbl_search">Search</string>
+<string name="lbl_umum">Umum</string>
+<string name="msg_dr_syahrul_sp">dr. Syahrul, Sp.S (K)</string>
+<string name="lbl_selesai">Selesai</string>
+<string name="lbl_5">5</string>
+<string name="msg_silakan_login_a">Silakan Login Akun Anda</string>
+<string name="msg_tampilkan_kalen">Tampilkan Kalender</string>
+<string name="lbl_masukkan_email">Masukkan email</string>
+<string name="lbl_berkonsultasi">Berkonsultasi
+</string>
+<string name="lbl_tampilan_masuk">Tampilan Masuk</string>
+<string name="lbl_drg_cia">Drg. Cia</string>
+<string name="lbl_alamat_domisili">Alamat Domisili</string>
+<string name="lbl_drg_budi">Drg. Budi</string>
+<string name="msg_tampilan_katego">Tampilan Kategori</string>
+<string name="msg_dr_syahrul">. dr. SYAHRUL, Sp.S (K)</string>
+<string name="lbl_ok">OK</string>
+<string name="msg_drg_yuli_fatzi">Drg. Yuli Fatzia Ossa, Sp. PM</string>
+<string name="lbl_tampilan_menu">Tampilan Menu</string>
+<string name="lbl_no_hp">No. Hp</string>
+<string name="lbl_17_00">17.00</string>
+<string name="lbl_daftar">Daftar</string>
+<string name="msg_tampilan_kotak2">Tampilan Kotak Masuk</string>
+<string name="lbl_alamat">Alamat</string>
+<string name="lbl_buat_janji_now">Buat Janji Now</string>
+<string name="msg_affan_nak_emo_g">affan.nak.emo@gmail.com</string>
+<string name="lbl_gigi">Gigi</string>
+<string name="lbl_paru_paru">Paru-paru</string>
+<string name="lbl_15_maret">15 Maret</string>
+<string name="lbl_rekomendasi">Rekomendasi</string>
+<string name="lbl_20_00">20.00</string>
+<string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+</resources>

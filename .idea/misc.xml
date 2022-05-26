@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_app_navigation.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_akun.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_awal.xml" value="0.1" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_buat_janji1.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_daftar.xml" value="0.1" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_kategori.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_masuk.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_rekomendasi_dokter.xml" value="0.1796875" />
+        <entry key="..\:/PBM/application/app/src/main/res/layout/activity_tampilan_reservasi.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

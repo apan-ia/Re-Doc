@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="tampilanAwalVM" type="com.application.app.modules.tampilanawal.data.viewmodel.TampilanAwalVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearTampilanAwal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_100">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearBarAtas"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearBarAtas1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegreen_300">
+                <androidx.appcompat.widget.Toolbar
+                    android:gravity="start"
+                    android:id="@+id/toolbarToolbar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent" app:contentInsetStart="0dp">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearGroup328"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_34pxh"
+                        android:layout_marginStart="@dimen/_23pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ImageView android:id="@+id/imageVector"
+                            android:layout_height="@dimen/_63pxh"
+                            android:layout_width="@dimen/_72pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_vector"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtReDoc"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_24pxh"
+                            android:layout_marginTop="@dimen/_21pxv"
+                            android:layout_weight="0.76"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{tampilanAwalVM.tampilanAwalModel.txtReDoc}"
+                            style="@style/txtRalewayromansemibold30" tools:text="@string/lbl_re_doc"/>
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+            <ImageView android:id="@+id/imageClipdoctorand"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_394pxh"
+                android:layout_marginEnd="@dimen/_45pxh"
+                android:layout_marginStart="@dimen/_45pxh"
+                android:layout_marginTop="@dimen/_45pxv"
+                android:layout_width="@dimen/_272pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_clipdoctorand}" tools:src="@drawable/img_clipdoctorand"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtReservasiSeger"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_45pxh"
+                android:layout_marginStart="@dimen/_45pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="match_parent"
+                android:text="@{tampilanAwalVM.tampilanAwalModel.txtReservasiSeger}"
+                style="@style/txtRalewayromanmedium25" tools:text="@string/msg_reservasi_seger"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:clickable="true" android:ellipsize="end"
+                android:gravity="center" android:id="@+id/btnReservasi"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_45pxh"
+                android:layout_marginStart="@dimen/_45pxh"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_reservasi"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_3" tools:text="@string/lbl_reservasi"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="tampilanBuatJanjiVM" type="com.application.app.modules.tampilanbuatjanji.data.viewmodel.TampilanBuatJanjiVM"/>
+    </data>
+    <ScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearGroup181"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_97pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:clickable="true" android:ellipsize="end"
+                android:gravity="end" android:id="@+id/txtBuatJanji"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_3pxv"
+                android:singleLine="true"
+                android:text="@{tampilanBuatJanjiVM.tampilanBuatJanjiModel.txtBuatJanji}"
+                style="@style/txtSolidRounded_1" tools:text="@string/lbl_buat_janji"/>
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtTampilkanKalen"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_177pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{tampilanBuatJanjiVM.tampilanBuatJanjiModel.txtTampilkanKalen}"
+                style="@style/txtPoppinsmedium18" tools:text="@string/msg_tampilkan_kalen"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

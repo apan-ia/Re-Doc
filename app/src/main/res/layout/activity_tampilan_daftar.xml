@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="tampilanDaftarVM" type="com.application.app.modules.tampilandaftar.data.viewmodel.TampilanDaftarVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearTampilanDaftar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_100">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearGroup313"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearBarAtas"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegreen_300">
+                <androidx.appcompat.widget.Toolbar
+                    android:gravity="start"
+                    android:id="@+id/toolbarToolbar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent" app:contentInsetStart="0dp">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearGroup309"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_34pxh"
+                        android:layout_marginStart="@dimen/_24pxh"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <ImageView android:id="@+id/imageVector"
+                            android:layout_height="@dimen/_63pxh"
+                            android:layout_width="@dimen/_72pxh"
+                            android:scaleType="fitXY" android:src="@drawable/img_vector"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtReDoc"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_23pxh"
+                            android:layout_marginTop="@dimen/_21pxv"
+                            android:layout_weight="0.76"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtReDoc}"
+                            style="@style/txtRalewayromansemibold30" tools:text="@string/lbl_re_doc"/>
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/frameGroup317"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_100pxv"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_306pxh">
+                <TextView android:id="@+id/txtSilakanMendaft"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtSilakanMendaft}"
+                    style="@style/txtRalewayromansemibold25" tools:text="@string/msg_silakan_mendaft"/>
+                <ImageView android:clickable="true"
+                    android:id="@+id/imageGroup"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_17pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="@dimen/_30pxh"
+                    android:scaleType="fitXY" android:src="@drawable/img_group_2"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameGroup319"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_602pxv"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh" android:layout_width="@dimen/_330pxh">
+                <LinearLayout android:id="@+id/linearUserloginSec"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_2pxh"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearUsername"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:alpha="0.7"
+                            android:ellipsize="end"
+                            android:id="@+id/txtUsername"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_1pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtUsername}"
+                            style="@style/txtRalewaysemibold15_4" tools:text="@string/lbl_username"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_gray_200_radius_10"
+                            android:drawablePadding="@dimen/_10pxh"
+                            android:drawableStart="@drawable/img_icon"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_masukkan_userna"
+                            android:id="@+id/etMasukkanUserna"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_13pxv"
+                            android:paddingStart="@dimen/_14pxh"
+                            android:paddingTop="@dimen/_16pxv"
+                            android:singleLine="true"
+                            android:text="@={tampilanDaftarVM.tampilanDaftarModel.etMasukkanUsernaValue}"
+                            android:textColorHint="@color/black_900_99" style="@style/etSolidRounded_1"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearEmailsec"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:alpha="0.7"
+                            android:ellipsize="end"
+                            android:id="@+id/txtEmail"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtEmail}"
+                            style="@style/txtRalewaysemibold15_4" tools:text="@string/lbl_email"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_gray_200_radius_10"
+                            android:drawablePadding="@dimen/_10pxh"
+                            android:drawableStart="@drawable/img_vector_7"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_masukkan_email"
+                            android:id="@+id/etMasukkanEmail"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_14pxv"
+                            android:paddingStart="@dimen/_14pxh"
+                            android:paddingTop="@dimen/_17pxv"
+                            android:singleLine="true"
+                            android:text="@={tampilanDaftarVM.tampilanDaftarModel.etMasukkanEmailValue}"
+                            android:textColorHint="@color/black_900_99" style="@style/etSolidRounded_1"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerTampilanDaftar"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_2pxh}" tools:itemCount="2" tools:listitem="@layout/row_tampilan_daftar1"/>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearAlamat"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:alpha="0.7"
+                            android:ellipsize="end"
+                            android:id="@+id/txtAlamat"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtAlamat}"
+                            style="@style/txtRalewaysemibold15_4" tools:text="@string/lbl_alamat"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_gray_200_radius_10"
+                            android:drawablePadding="@dimen/_10pxh"
+                            android:drawableStart="@drawable/img_vector_9"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_alamat_domisili"
+                            android:id="@+id/etAlamatDomisili"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_12pxv"
+                            android:paddingStart="@dimen/_14pxh"
+                            android:paddingTop="@dimen/_14pxv"
+                            android:singleLine="true"
+                            android:text="@={tampilanDaftarVM.tampilanDaftarModel.etAlamatDomisiliValue}"
+                            android:textColorHint="@color/black_900_99" style="@style/etSolidRounded_2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearWorkingplace"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:alpha="0.7"
+                            android:ellipsize="end"
+                            android:id="@+id/txtTanggalLahir"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtTanggalLahir}"
+                            style="@style/txtRalewaysemibold15_4" tools:text="@string/lbl_tanggal_lahir"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_gray_200_radius_10"
+                            android:drawablePadding="@dimen/_10pxh"
+                            android:drawableStart="@drawable/img_calendart_1"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_tanggal_lahir"
+                            android:id="@+id/etTanggalLahir"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_9pxv"
+                            android:paddingStart="@dimen/_8pxh"
+                            android:paddingTop="@dimen/_9pxv"
+                            android:singleLine="true"
+                            android:text="@={tampilanDaftarVM.tampilanDaftarModel.etTanggalLahirValue}"
+                            android:textColorHint="@color/black_900_99" style="@style/etSolidRounded_2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearWorkingplace1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_113pxv"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:alpha="0.7"
+                            android:ellipsize="end"
+                            android:id="@+id/txtNoHp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{tampilanDaftarVM.tampilanDaftarModel.txtNoHp}"
+                            style="@style/txtRalewaysemibold15_4" tools:text="@string/lbl_no_hp"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_gray_200_radius_10"
+                            android:drawablePadding="@dimen/_10pxh"
+                            android:drawableStart="@drawable/img_phonet_1"
+                            android:ellipsize="end"
+                            android:hint="@string/lbl_no_hp"
+                            android:id="@+id/etNoHp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_10pxv"
+                            android:paddingStart="@dimen/_8pxh"
+                            android:paddingTop="@dimen/_9pxv"
+                            android:singleLine="true"
+                            android:text="@={tampilanDaftarVM.tampilanDaftarModel.etNoHpValue}"
+                            android:textColorHint="@color/black_900_99" style="@style/etSolidRounded_2"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:clickable="true" android:ellipsize="end"
+                    android:gravity="center" android:id="@+id/btnDaftar"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_11pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_11pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_daftar"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_2" tools:text="@string/lbl_daftar"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
