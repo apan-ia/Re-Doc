@@ -1,6 +1,9 @@
 
 # application
 
+1908107010038 - Affan Ian Amara
+1908107010066 - Yunza Jauhari
+
 Built with AndroidX Support
 
 Requires Android Studio Arctic Fox | 2020.3.1 or higher.
