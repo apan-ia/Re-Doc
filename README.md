@@ -1,8 +1,8 @@
 
 # application
 
-1908107010038 - Affan Ian Amara
-1908107010066 - Yunza Jauhari
+Affan Ian Amara(1908107010038) 
+Yunza Jauhari(1908107010066)
 
 Built with AndroidX Support
 
